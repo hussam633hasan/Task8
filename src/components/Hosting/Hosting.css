@@ -1,0 +1,122 @@
+.Hosting{
+    background-color: #282828;
+    margin-top: 35px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.Hosting-title{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.Hosting-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Hosting-card1{
+    width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 20px;
+    border-top: 15px solid #ff8500;
+}
+.Hosting-text1{
+    margin: 10px;
+}
+.Hosting-text1 h2{
+    margin: 10px 0;
+}
+.bottom-card1{
+    width: 90%;
+    text-align: center;
+    border: 3px solid #ff8500;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin: 10px 12px;
+    color: #ff8500;
+}
+.Hosting-card2{
+    width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 20px;
+    border-top: 15px solid #a513ff;
+}
+.Hosting-text2{
+    margin: 10px;
+}
+.Hosting-text2 h2{
+    margin: 10px 0;
+}
+.bottom-card2{
+    width: 90%;
+    text-align: center;
+    border: 3px solid #a513ff;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin: 10px 12px;
+    color: #a513ff;
+}
+.Hosting-card3{
+    width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 20px;
+    border-top: 15px solid #71aa27;
+}
+.Hosting-text3{
+    margin: 10px;
+}
+.Hosting-text3 h2{
+    margin: 10px 0;
+}
+.bottom-card3{
+    width: 90%;
+    text-align: center;
+    border: 3px solid#71aa27;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin: 10px 12px;
+    color: #71aa27;
+}
+.Hosting-card4{
+    width: 325px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px 20px;
+    border-top: 15px solid #1d5edd;
+}
+.Hosting-text4{
+    margin: 10px;
+}
+.Hosting-text4 h2{
+    margin: 10px 0;
+}
+.bottom-card4{
+    width: 90%;
+    text-align: center;
+    border: 3px solid #1d5edd;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin: 10px 12px;
+    color: #1d5edd;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Hosting-text{
+    color: white;
+    text-align: center;
+}

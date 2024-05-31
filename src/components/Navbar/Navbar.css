@@ -1,0 +1,193 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 20px 5px gray;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 6;
+    background: white;
+}
+
+.sidebar {
+    display: none;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background: white;
+    z-index: 999;
+}
+
+.icon-bars {
+    display: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo {
+    width: 75px;
+    margin: 0px 10px;
+}
+
+.links a {
+    position: relative;
+    text-decoration: none;
+    margin: 20px 10px;
+    color: black;
+    filter: opacity(0.7);
+}
+
+.links a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff8500;
+    transition: 0.3s;
+}
+
+.links a:hover::before {
+    width: 100%;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .sidebar {
+        display: block;
+        position: fixed;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background: #ff8500;
+        z-index: 999;
+        transition: 2s;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links-sidebar a {
+        position: relative;
+        text-decoration: none;
+        margin: 20px 10px;
+        color: black;
+        filter: opacity(0.7);
+        display: flex;
+        width: max-content;
+    }
+
+    .links-sidebar a::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: 0.3s;
+    }
+
+    .links-sidebar a:hover::before {
+        width: 100%;
+    }
+
+    .icon-bars {
+        display: block;
+        margin: 0 20px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+
+    .logo-sidebar {
+        margin: 15px 15px;
+    }
+    
+    .Xmark-icon{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .sidebar {
+        display: block;
+        position: fixed;
+        right: 0px;
+        width: 250px;
+        height: 100vh;
+        background: #ff8500;
+        z-index: 999;
+        transition: 2s;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links-sidebar a {
+        position: relative;
+        text-decoration: none;
+        margin: 20px 10px;
+        color: black;
+        filter: opacity(0.7);
+        display: flex;
+        width: max-content;
+    }
+
+    .links-sidebar a::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: 0.3s;
+    }
+
+    .links-sidebar a:hover::before {
+        width: 100%;
+    }
+
+    .icon-bars {
+        display: block;
+        margin: 0 20px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+
+    .logo-sidebar {
+        margin: 15px 15px;
+    }
+
+    .Xmark-icon{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: larger;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 0 15px;
+    }
+}

@@ -1,0 +1,109 @@
+footer{
+    background-color: #282828;
+    width: 100%;
+    margin-top: -1px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.img-logo-footer{
+    width: 100px;
+    margin: 5px;
+}
+.footer-span1{
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    position: absolute;
+    margin: 40px 0px 0 103px;
+}
+.footer-part1{
+    width: 340px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer-part1 h4, p{
+    margin: 10px 0px;
+}
+.footer-part2{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid white;
+    margin-left: 40px;
+}
+.footer-part2 div{
+    margin: 0px 10px;
+    width: max-content;
+}
+.footer-span2 a{
+    margin: 0px 5px;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+    footer {
+        background-color: #282828;
+        width: 100%;
+        margin-top: -1px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .footer-part1 {
+        width: 340px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-part2 {
+        display: flex;
+        border-bottom: none;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer-part2 div {
+        margin: 10px 0px;
+        width: max-content;
+        border-bottom: 2px solid;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+
+    footer {
+        background-color: #282828;
+        width: 100%;
+        margin-top: -1px;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .footer-part1 {
+        width: 320px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-part2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px 0px;
+        border-bottom: none;
+    }
+    .footer-part2 div {
+    margin: 10px 0px;
+    width: max-content;
+    border-bottom: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
